@@ -1,10 +1,11 @@
 class Objeto:
-    def __init__(self, peso: int, valor: int):
+    def __init__(self, peso: int, valor: int , nombre: str):
         self.peso = peso
         self.valor = valor
+        self.nombre = nombre
         
     def __str__(self):
-        return f"Objeto(peso={self.peso}, valor={self.valor})"
+        return f"Objeto(peso={self.peso}, valor={self.valor} , nombre={self.nombre})"
     
     def __repr__(self):
         return self.__str__()
@@ -56,10 +57,10 @@ class Mochila:
 if __name__ == "__main__":
     capacidad_maxima = 10
     objetos = [
-        Objeto(peso=5, valor=10),
-        Objeto(peso=4, valor=40),
-        Objeto(peso=6, valor=30),
-        Objeto(peso=3, valor=50)
+        Objeto(peso=5, valor=10, nombre="Cartera"),
+        Objeto(peso=4, valor=40 , nombre="Lapiz"),
+        Objeto(peso=6, valor=30 , nombre="Bolso"),
+        Objeto(peso=3, valor=50 , nombre="Celular"),
     ]
     
     mochila = Mochila(capacidad_maxima, objetos)
