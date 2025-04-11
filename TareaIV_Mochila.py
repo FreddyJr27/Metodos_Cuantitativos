@@ -60,7 +60,7 @@ if __name__ == "__main__":
         Objeto(peso=5, valor=10, nombre="Cartera"),
         Objeto(peso=4, valor=40 , nombre="Lapiz"),
         Objeto(peso=6, valor=30 , nombre="Bolso"),
-        Objeto(peso=3, valor=50 , nombre="Celular"),
+        Objeto(peso=3, valor=50 , nombre="celular"),
     ]
     
     mochila = Mochila(capacidad_maxima, objetos)
