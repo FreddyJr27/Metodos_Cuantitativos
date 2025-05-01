@@ -1,6 +1,10 @@
 Respuestas de la Tarea de Programación no lineal:
 Freddy Jaimes CI: 30391404
 Jesus Camacho CI: 30276480
+Albert Carruido CI: 30190771
+
+Url del github:
+https://github.com/FreddyJr27/Metodos_Cuantitativos/tree/main/TareadeMetodos-Programaci%C3%B3n%20no%20lineal
 
 Ejercicio1:
 Solución encontrada:
