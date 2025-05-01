@@ -1,0 +1,63 @@
+Respuestas de la Tarea de Programación no lineal:
+Freddy Jaimes CI: 30391404
+Jesus Camacho CI: 30276480
+
+Ejercicio1:
+Solución encontrada:
+  Inversión en activo x: 1.0000
+  Inversión en activo y: 0.0000
+  Rendimiento máximo: 0.1000
+
+Ejercicio2:
+Solución encontrada:
+  Producción óptima de A (x): 13.04
+  Producción óptima de B (y): 21.74
+  Producción óptima de C (z): 65.22
+  Costo mínimo: 6521.74
+
+Solución 3:
+Iteraciones del descenso del gradiente:
+Iteración 0: x = 1.0000, y = 1.0000, z = 1.0000, f = 4.0000
+Iteración 1: x = 1.0000, y = 1.0000, z = 0.5000, f = 1.7500
+Iteración 2: x = 1.0000, y = 1.0000, z = 0.1000, f = 0.3100
+Iteración 3: x = 1.0000, y = 1.0000, z = -0.2200, f = -0.6116
+Iteración 4: x = 1.0000, y = 1.0000, z = -0.4760, f = -1.2014
+Iteración 5: x = 1.0000, y = 1.0000, z = -0.6808, f = -1.5789
+Iteración 6: x = 1.0000, y = 1.0000, z = -0.8446, f = -1.8205
+Iteración 7: x = 1.0000, y = 1.0000, z = -0.9757, f = -1.9751
+Iteración 8: x = 1.0000, y = 1.0000, z = -1.0806, f = -2.0741
+Iteración 9: x = 1.0000, y = 1.0000, z = -1.1645, f = -2.1374
+Iteración 10: x = 1.0000, y = 1.0000, z = -1.2316, f = -2.1779
+Iteración 11: x = 1.0000, y = 1.0000, z = -1.2853, f = -2.2039
+Iteración 12: x = 1.0000, y = 1.0000, z = -1.3282, f = -2.2205
+Iteración 13: x = 1.0000, y = 1.0000, z = -1.3626, f = -2.2311
+Iteración 14: x = 1.0000, y = 1.0000, z = -1.3900, f = -2.2379
+Iteración 15: x = 1.0000, y = 1.0000, z = -1.4120, f = -2.2423
+
+Solucion 4:
+Mínimo encontrado en el intervalo [2, 5]:
+  x = 2.0000
+  f(x) = 17.0000
+
+Solución 5:
+Ejercicio 5 – Métodos Cuantitativos: Programación No Lineal
+
+TEMA: PUNTOS ESTACIONARIOS
+
+ DEFINICIÓN:
+Un punto estacionario de una función f(x) es un punto x₀ donde la derivada primera se anula:
+    f'(x₀) = 0
+
+Los puntos estacionarios pueden clasificarse como:
+1.  Mínimo local: si f''(x₀) > 0 (la curva es cóncava hacia arriba)
+2.  Máximo local: si f''(x₀) < 0 (la curva es cóncava hacia abajo)
+3.  Punto de inflexión: si f''(x₀) = 0, pero no cambia el crecimiento/ decrecimiento (no es ni mínimo ni máximo)
+
+ MÉTODO:
+Para identificar el tipo de punto estacionario:
+- Se deriva la función f'(x)
+- Se iguala a 0 para encontrar candidatos
+- Se evalúa la derivada segunda f''(x) para clasificar el tipo
+
+Ejemplo:
+Explicado con gráficos en el codigo.
